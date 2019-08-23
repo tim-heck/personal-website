@@ -47,7 +47,7 @@ header h2 {
 
 header img {
     display: inline;
-    width: 500px;
+    /* width: 500px; */
     margin: -100px -50% 0;
 }
 
