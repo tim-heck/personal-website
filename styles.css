@@ -1,0 +1,162 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #100110;
+    color: #fff;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #efbe93;
+    font-weight: 500;
+}
+
+.circle-image {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+header {
+    padding: 100px 0;
+    background-color: #350929;
+}
+
+header h1,
+header h2 {
+    color: #efbe93;
+}
+
+header img {
+    display: inline;
+    /* width: 500px; */
+    margin: -100px -50% 0;
+}
+
+header .personal-info {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.bio {
+    padding: 100px 0;
+}
+
+.bio p {
+    margin: 15px 0;
+}
+
+.bio-extra {
+    margin-top: 40px;
+    font-family: 'Lora', serif;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+.bio-extra span {
+    color: #c9806a
+}
+
+header a {
+    color: #efbe93;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #c9806a;
+    text-decoration: underline;
+}
+
+.bio hr {
+    border-color: #efbe93
+}
+
+.resume {
+    color: #000;
+    background-color: #fff;
+    padding: 50px 0 100px;
+}
+
+.resume section {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.resume h2, .resume h4 {
+    color: #350929;
+    /* font-weight: 700; */
+}
+
+.resume h4 {
+    font-size: 18px;
+}
+
+.resume h1 {
+    color: #350929;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.resume p {
+    margin-bottom: 10px;
+}
+
+ul li {
+    line-height: 25px;
+}
+
+.resume h4.work-place {
+    font-size: 19px;
+    /* margin-bottom: 20px; */
+    background-color: #c9806a;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 0 -5px;
+    border-radius: 4px;
+}
+
+span.date {
+    float: right;
+}
+
+.job-title {
+    margin: 15px 0 5px;
+    font-style: italic;
+}
+
+.resume ul {
+    margin-top: 0;
+}
+
+footer {
+    height: 300px;
+    background-color: #A44849;
+}
