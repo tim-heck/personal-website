@@ -20,7 +20,6 @@ h4,
 h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
     letter-spacing: 1px;
     color: #efbe93;
     font-weight: 500;
@@ -136,7 +135,7 @@ ul li {
 .resume h4.work-place {
     font-size: 19px;
     /* margin-bottom: 20px; */
-    background-color: #c9806a;
+    background-color: #efbe93;
     color: #fff;
     padding: 5px 5px;
     margin: 0 -5px;
@@ -156,7 +155,32 @@ span.date {
     margin-top: 0;
 }
 
+.btn {
+    color: #100110;
+    background-color: #c9806a;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: .2s;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+.btn:hover {
+    background-color: #100110;
+    color: #efbe93;
+    box-shadow: 0px 0px 0px 3px #efbe93;
+}
+
 footer {
-    height: 300px;
-    background-color: #A44849;
+    height: 250px;
+    background-color: #350929;
+    padding: 50px 0;
+}
+
+footer section {
+    display: inline-block;
+    width: 400px;
 }
