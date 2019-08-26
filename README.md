@@ -8,4 +8,4 @@ HTML5 and CSS3
 
 ## Getting Started
 
-Visit [my website](https://tim-heck.github.io/personal-website/)
+Visit [my website](https://tim-heck.github.io/)
