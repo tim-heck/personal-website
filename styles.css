@@ -32,11 +32,13 @@ h6 {
     overflow: hidden;
     border-radius: 50%;
     display: inline-block;
+    z-index: 0;
 }
 
 header {
     padding: 100px 0;
     background-color: #350929;
+    height: 100vh;
 }
 
 header h1,
@@ -50,9 +52,53 @@ header img {
     margin: -100px -50% 0;
 }
 
-header .personal-info {
+header .landing__personal-info {
     margin: 0 auto;
     max-width: 900px;
+}
+
+.landing__info {
+    display: inline-block;
+    width: 445px;
+    vertical-align: top;
+}
+
+nav {
+    background-color: #c9806a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+    /* border-bottom: 5px solid transparent; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #100110;
+}
+
+nav ul li:hover {
+    background-color: #100110;
+    cursor: pointer;
+    /* border-bottom: 5px solid #350929; */
+}
+
+nav ul li:hover a {
+    color: #efbe93;
 }
 
 .center {
@@ -176,6 +222,7 @@ span.date {
 
 .btn-icon {
     color: #efbe93;
+    margin: 0 3px;
 }
 
 .btn-icon:hover {
