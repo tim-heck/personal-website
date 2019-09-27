@@ -12,47 +12,37 @@
 </head>
 
 <body>
-    <nav class="landing__nav">
+    <!-- <nav class="landing__nav">
         <ul class="">
-            <li>
-                <a class="btn-nav" href="./work-experience.html">Work</a>
+            <li class="active">
+                <a class="btn-nav" href="./index.html">Home</a>
             </li>
             <li>
-                <a class="btn-nav" href="./education">Education</a>
+                <a class="btn-nav" href="./work-experience.html">Work and Education</a>
             </li>
             <li>
-                <a class="btn-nav" href="./about">About</a>
+                <a class="btn-nav" href="#education">Education</a>
+            </li>
+            <li>
+                <a class="btn-nav" href="#design">Design Portfolio</a>
+            </li>
+            <li>
+                <a class="btn-nav" href="./about.html">About</a>
             </li>
         </ul>
-    </nav>
+    </nav> -->
     <header>
         <div class="landing__personal-info">
             <div class="landing__info">
                 <div class="circle-image">
-                    <img src="images/tim-heck.jpg" alt="Tim Heck" width="500" />
+                    <img src="images/tim-heck.jpg" alt="Tim Heck"/>
                 </div>
                 <h1>Tim Heck</h1>
                 <h2>Full Stack Software Engineer</h2>
             </div>
-            <!-- <div class="landing__info">
-                
-            </div> -->
         </div>
-        <!-- <div class="landing__nav">
-            <ul class="center">
-                <li>
-                    <a class="btn" href="./work-experience.html">Work</a>
-                </li>
-                <li>
-                    <a class="btn" href="./education">Education</a>
-                </li>
-                <li>
-                    <a class="btn" href="./about">About</a>
-                </li>
-            </ul>
-        </div> -->
     </header>
-    <section class="container">
+    <section id="about" class="container">
         <section class="bio">
             <h2>About me</h2>
             <p>I graduated from Bethel University in Saint Paul, Minnesota with a Computer Science Degree and Graphic
@@ -67,7 +57,7 @@
                 GreasySauceBoss, and craft beers... <br /><span>you know typical hipster stuff.</span></h2>
         </section>
     </section>
-    <section class="resume">
+    <section id="work" class="resume">
         <section class="intro">
             <h1>What I bring to the table</h1>
             <hr>
@@ -76,18 +66,16 @@
                 JavaScript – React.js – Redux – HTML – CSS – jQuery – Node.js – Jest<br />
                 Git – Python – Liquid – Express.js – SQL – Postgres – Postico<br />
                 Graphic Design – Digital Photography – Squarespace<br />
-                Illustrator – InDesign – Photoshop – Lightroom – Adobe Creative Cloud Efficient Learner – Loyal
-                Team<br />
-                Member – Organizational Skills – Effective Worker<br />
+                Illustrator – InDesign – Photoshop – Lightroom – Adobe Creative Cloud<br /> 
+                Efficient Learner – Loyal Team Member – Organizational Skills – Effective Worker<br />
             </p>
         </section>
         <section class="experience">
             <h2>Work Experience</h2>
             <div class="job">
                 <h4 class="work-place">
-                    Prime Digital Academy – Minneapolis, MN<span class="date">May 2019 - Present</span>
+                    Prime Digital Academy – Minneapolis, MN<span class="date">May 2019 - September 2019</span>
                 </h4>
-                <!-- <hr> -->
                 <h4 class="job-title">Full Stack Software Development Student</h4>
                 <p>
                     Immersive learning program with modern technologies and languages for full stack software
@@ -97,14 +85,20 @@
                 <p>Solo Project: GreasySauceBoss Band Website</p>
                 <ul>
                     <li>Developed an application to show who the band is, guide users to their music, and have a
-                        platform to display and sell merchandise</li>
+                        platform to display and sell merchandise.</li>
                     <li>Technologies used: JavaScript, React.js, Redux, Node.js, Express.js, SQL, Postgres, Adobe
                         Creative Cloud, Material UI, CSS</li>
                 </ul>
-                <p>Group Project: TBD</p>
+                <p>Group Project: Aquatics Empowered</p>
                 <ul>
-                    <li>A client has a problem that can be solved with technologies learned at Prime</li>
-                    <li>Work in groups of four</li>
+                    <li>Aquatics Empowered is a non-profit that gives communities, with a focus on rural communities,
+                        access to pools, spas, or splash pads for aquatic therapy. Aquatics Empowered needs a way to
+                        spread awareness of aquatic therapy and a charity event they are hosting called Hot Tubbing for
+                        Hope.</li>
+                    <li>Developed a web application that allows users to post and view personal experiences
+                        related to pools, hot tubs, spas, etc. and aquatic therapy with ease.</li>
+                    <li>Technologies used: JavaScript, React.js, Redux, Node.js, Express.js, SQL, Postgres, Semantic
+                        UI, CSS.</li>
                 </ul>
             </div>
 
@@ -164,7 +158,7 @@
             </div>
         </section>
 
-        <section class="education">
+        <section id="education" class="education">
             <h2>Education</h2>
             <p>Prime Digital Academy, Minneapolis, MN</p>
             <p>Full Stack Software Engineering Certification | September 2019</p>
@@ -172,7 +166,7 @@
             <p>Bachelor of Arts (BA) Computer Science | December 2017 | Minor Graphic Design | Minor Mathematics</p>
         </section>
     </section>
-    <footer class="center">
+    <footer class="home-footer center">
         <h2>Let's Connect!</h2>
         <section>
             <h4>Email:</h4>
