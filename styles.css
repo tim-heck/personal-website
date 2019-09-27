@@ -32,11 +32,13 @@ h6 {
     overflow: hidden;
     border-radius: 50%;
     display: inline-block;
+    z-index: 0;
 }
 
 header {
-    padding: 100px 0;
+    padding: 100px 20px;
     background-color: #350929;
+    height: 100vh;
 }
 
 header h1,
@@ -46,13 +48,76 @@ header h2 {
 
 header img {
     display: inline;
-    /* width: 500px; */
+    width: 500px;
     margin: -100px -50% 0;
 }
 
-header .personal-info {
-    margin: 0 auto;
-    max-width: 900px;
+header .landing__personal-info {
+    margin: 100px auto;
+    padding: 0;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.landing__info {
+    display: inline-block;
+    max-width: 445px;
+    vertical-align: top;
+}
+
+/* .landing__info h1 {
+    font-size: 50px;
+}
+
+.landing__info h2 {
+    font-size: 28px;
+} */
+
+nav {
+    background-color: #c9806a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+    /* border-bottom: 5px solid transparent; */
+}
+
+nav ul li.active {
+    background-color: #100110;
+}
+
+nav ul li.active a {
+    color: #efbe93;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #100110;
+}
+
+nav ul li:hover {
+    background-color: #100110;
+    cursor: pointer;
+    /* border-bottom: 5px solid #350929; */
+}
+
+nav ul li:hover a {
+    color: #efbe93;
 }
 
 .center {
@@ -62,6 +127,7 @@ header .personal-info {
 .container {
     margin: 0 auto;
     max-width: 900px;
+    padding: 0 20px;
 }
 
 .bio {
@@ -101,7 +167,7 @@ header a:hover {
 .resume {
     color: #000;
     background-color: #fff;
-    padding: 50px 0 100px;
+    padding: 50px 20px 100px;
 }
 
 .resume section {
@@ -176,6 +242,7 @@ span.date {
 
 .btn-icon {
     color: #efbe93;
+    margin: 0 3px;
 }
 
 .btn-icon:hover {
@@ -192,7 +259,37 @@ footer {
     padding: 50px 0;
 }
 
+/* footer.home-footer {
+    background-color: #100110;
+} */
+
 footer section {
     display: inline-block;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
+}
+
+@media all and (min-width: 800px) {
+    .circle-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .landing__info h1 {
+        font-size: 50px;
+    }
+
+    .landing__info h2 {
+        font-size: 28px;
+    }
+
+    header img {
+        width: 700px;
+        margin: -120px -38% 0;
+    }
+
+    header .landing__personal-info {
+        text-align: left;
+        padding: 0 80px;
+    }
 }
